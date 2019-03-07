@@ -32,7 +32,7 @@ int main()
                                         480,
                                         SDL_WINDOW_FULLSCREEN_DESKTOP);
     SDL_Renderer *renderer = SDL_CreateRenderer (win, -1, SDL_RENDERER_ACCELERATED);
-    SDL_SetRenderDrawColor (renderer, 0, 255, 0, 255);
+    SDL_SetRenderDrawColor (renderer, 255, 255, 255, 100);
     SDL_RenderClear (renderer);
     SDL_RenderPresent (renderer);
     SDL_Delay (2000);
