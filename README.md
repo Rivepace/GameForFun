@@ -1,3 +1,5 @@
 # GameForFun
 
-a new line
+This.is a game made for fun.
+
+
