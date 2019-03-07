@@ -28,7 +28,7 @@ int main()
     SDL_Window *win = SDL_CreateWindow ("new win",
                                         SDL_WINDOWPOS_CENTERED,
                                         SDL_WINDOWPOS_CENTERED,
-                                        640
+                                        640,
                                         480,
                                         SDL_WINDOW_FULLSCREEN_DESKTOP);
     SDL_Renderer *renderer = SDL_CreateRenderer (win, -1, SDL_RENDERER_ACCELERATED);
